@@ -13,23 +13,23 @@ data.addEventListener("submit", e=>{
     switch(choice){
             case 1:
                 var num = document.querySelector("#num").value;
-                var url = `http://numbersapi.com/${num}?json`;
+                var url = `https://numbersapi.com/${num}?json`;
                 console.log(num);
                 break;
             case 2:
                 var day = document.querySelector("#day").value;
                 var month = document.querySelector("#month").value;
-                var url = `http://numbersapi.com/${month}/${day}/date?json`;
+                var url = `https://numbersapi.com/${month}/${day}/date?json`;
                 console.log(day);
                 console.log(month);
                 break;
             case 3:
                 var num = document.querySelector("#num").value;
-                var url = `http://numbersapi.com/${num}/math?json`;
+                var url = `https://numbersapi.com/${num}/math?json`;
                 console.log(num);
                 break;
             default:
-                var url = `http://numbersapi.com/random/year?json`;
+                var url = `https://numbersapi.com/random/year?json`;
     }
 
     console.log(url);
