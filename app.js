@@ -29,7 +29,7 @@ data.addEventListener("submit", e=>{
                 console.log(num);
                 break;
             default:
-                var url = `http://numbersapi.com/random/year?json`;
+                var url = `https://numbersapi.com/random/year?json`;
     }
 
     console.log(url);
