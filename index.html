@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,26 +17,29 @@
 
     <title>Number Facts</title>
 </head>
+
 <body class="deep-purple lighten-4">
     <div class="row container centered">
         <form class="col s8 offset-s2 card lime accent-2 data">
             <div class="card-content pink-text">
-                <span class="card-title center-align"><h4>Num Facts</h4></span>
+                <span class="card-title center-align">
+                    <h4>Num Facts</h4>
+                </span>
 
                 <div class="input-field col s12">
                     <select name="choice" id="numview" onchange="show()">
-                      <option value="" disabled selected>Choose your option</option>
-                      <option value="1">Trivia</option>
-                      <option value="2">Date</option>
-                      <option value="3">Math</option>
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">Trivia</option>
+                        <option value="2">Date</option>
+                        <option value="3">Math</option>
                     </select>
-                  </div>
-                
-                
+                </div>
+
+
                 <div class="dummy"></div>
 
-                <button class="btn waves-effect waves-light center-align" type="submit" name="action">Amaze Me!!
-                    <i class="material-icons right">send</i>
+                <button class="btn waves-effect waves-light" type="submit" name="action">Amaze Me!!
+                    <i class="material-icons right center-align">send</i>
                 </button>
                 <br><br>
                 <div class="divider"></div>
@@ -52,15 +56,16 @@
             left: 50%;
             /* bring your own prefixes */
             transform: translate(-50%, -50%);
-          }
+        }
     </style>
 
     <script>
-    $(document).ready(function(){
-        $('select').formSelect();
+        $(document).ready(function () {
+            $('select').formSelect();
         });
     </script>
 
     <script src="app.js"></script>
 </body>
+
 </html>
